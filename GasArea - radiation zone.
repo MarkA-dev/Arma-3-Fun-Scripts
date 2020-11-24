@@ -32,5 +32,5 @@ _markerName setMarkerType "hd_dot";
 } remoteExec ["BIS_fnc_call",0,"JIP_id_radiationZone"];
 
 // modified script that adds a radiation zone and does damage if the player isn't wearing proper attire while also limiting vision, and adding a camera shake as well as a nasty cough.
-original creator is j-wolf.
-effects were added to make it more realistic. camshake/dynamic blur/ sound / although sound is modded with cfgsounds.
+//original creator is j-wolf.
+//effects were added to make it more realistic. camshake/dynamic blur/ sound / although sound is modded with cfgsounds.
