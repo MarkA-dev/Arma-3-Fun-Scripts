@@ -1,0 +1,8 @@
+// works with a trigger area. terminates the toxic zone when the player is dead. in the init set the remote exec to inToxicZ. 
+
+[player, "passenger_injured_medevac_truck01"] remoteExecCall ["switchMove", player, true];
+playsound "scream1";
+player setDamage .5;
+sleep 5;
+player setdamage 1;
+terminate inToxicZ;
