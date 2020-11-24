@@ -1,0 +1,435 @@
+// lists some of the animations, some use playMove others use switchMove.
+
+Acts_ViperMeeting_A_End - execution, standing.
+
+Acts_Executioner_Kill - killing the dude crouching
+
+acts_millerDisarming_deskLoop - cool disarming, custscene.
+
+acts_millerDisarming_deskCrouch_loop - second cool disarming cutscene.
+.
+acts_millerDisarming_deskOut - finished disarming, cutscene.
+
+Acts_ExecutionVictim_Loop - kneeled hands behind back
+
+Acts_ExecutionVictim_Kill_End- gets shot
+
+Acts_ExecutionVictim_KillTerminal - dead dead
+
+Acts_Getting_Up_Player - player getting up
+
+Acts_SyndikatAmbush_A - peaks a corner and shoots some random dude-
+
+Acts_CivilHiding_2 - civilian crouching
+
+Acts_Accessing_Computer_Loop - computer loop
+
+Acts_Executioner_Squat - executioner squating down
+
+Acts_Pointing_Up- points up
+
+Acts_Rifle_Operations_Back - turns around and looks with his gun
+
+Acts_Rifle_Operations_Barrel - looks down barrel of gun
+
+Acts_Shocked_4_Loop - looks shocked
+
+Acts_SignalToCheck - tells vehicle to go
+
+Acts_AidlPercMstpSloWWpstDnon_warmup_7_loop - getting ready with pistol
+
+Acts_AidlPercMstpSnonWnonDnon_warmup_8_loop - hands crossed
+
+Acts_Ambient_Disagreeing_with_pointing - disagreeing 
+
+Acts_Ambient_Dismissing - saying no
+
+Acts_Ambient_Facepalm_1 - facepalm
+
+Acts_Ambient_Gestures_Tired - leaning 
+
+Acts_BoatAttacked02 - holding on
+
+Acts_Briefing_SB_Out - holding gun, hand down
+
+Acts_Accessing_Computer_Out_2 - talking 1
+
+Acts_SupportTeam_Left_Move - walking animation, half crouched and aiming with gun.
+
+Acts_Stunned_Unconscious - gets shot and starts falling
+
+DismountSide- messing with gun
+
+Acts_RU_Briefing_Point- points behind.
+
+Acts_ExecutionVictim_Backhand - gets backhanded
+
+Acts_ExecutionVictim_Forehand - gets forehanded
+
+Acts_Executioner_Backhand - backhands the prisoner
+
+Acts_Executioner_Forehand - forehands the prisoner
+
+Acts_Ambient_Gestures_Sneeze- sneezes
+
+Acts_Ambient_Picking_Up - picking something up.
+
+Acts_B_M05_briefing - walking around.
+
+Acts_AidlPercMstpSnonWnonDnon_warmup_6_loop - kneeling and doing stuff
+
+Acts_Ambient_Aggressive - aggressive
+
+Acts_Ambient_Agreeing- agreeing
+
+Acts_Ambient_Approximate - shrug
+
+Acts_Ambient_Facepalm_1 - facepalm
+
+Acts_Ambient_Gestures_Yawn - yawn
+
+Acts_Ambient_Picking_Up- picking something up
+
+Acts_Ambient_Relax_1 - relaxing
+
+Acts_Arriving_Camp - running
+
+Acts_B_M05_briefing - walking around
+
+Acts_Briefing_Intro3_Major_1 - talking more
+
+Acts_Peering_Back- looking back
+
+Acts_Peering_Left - looking left
+
+Acts_PercMstpSlowWrflDnon_handup1 - hand up 
+
+Acts_PercMstpSlowWrflDnon_handup1b - wave
+
+Acts_PercMstpSlowWrflDnon_handup2c - stop
+
+Acts_Pointing_Front - you
+
+Acts_RU_Briefing_Point- point back 
+
+acts_millerChopper_out - chopper called
+
+acts_miller_knockout - hit with the gun
+
+Acts_Stargazer - stargazer
+
+Acts_WalkingChecking - walking 
+
+Acts_welcomeOnHUB04_AIWalk_3 - talk
+
+Acts_UGV_Jamming_Loop - aiming at enemy
+
+Acts_trailer_sendUGVOff - invites out
+
+Acts_trailer_nodCommander - talking
+
+Acts_trailer_campScientist - talking
+
+Acts_trailer_campCommander - talking
+
+Acts_JetsPilotThumbsUp - sitting thumbs up
+
+Acts_CivilTalking_1 - talking
+
+Acts_CivilTalking_2 - talking
+
+Acts_CrouchGetLowGesture- gesture 
+
+Acts_SittingWounded_out- dieing on the ground
+
+Acts_Shocked_3 - shocked
+
+Acts_trailer_inspectShock_A - walks in looks on ground
+
+Acts_JetsCrewaidLCrouch_in - crouches down one leg
+
+Acts_JetsCrewaidLCrouch_loop - standing on one knee
+
+Acts_JetsMarshallingEmergencyStop_loop - hands up above head
+
+Acts_JetsMarshallingEnginesOff_loop - hand going left to right in a loop
+
+Acts_JetsMarshallingEnginesOn_loop - hand going right to left while pointing up
+
+Acts_JetsMarshallingLeft_loop - pointing right waving while left hand is up
+
+Acts_JetsPilotThumbsUp - sitting and then putting his thumbs up
+
+Acts_NavigatingChopper_Loop - hands loop toward self
+
+Acts_PercMstpSlowWrflDnon_handup2 - puts his hands up above his head and waves
+
+Acts_Rifle_Operations_Checking_Chamber - checking chamber
+
+Acts_RU_Briefing_Move - says to go
+
+Acts_ShowingTheRightWay_loop - showing the way loop
+
+Acts_SignalToCheck - signal to move
+
+Acts_SittingWounded_wave - waves while sitting up
+
+Acts_SyndikatAmbush_B - gets shot
+
+Acts_Waking_Up_Player - laying on ground 
+
+Acts_SittingWounded_loop - sitting on the ground
+
+Acts_Abuse_Lacey - walking1
+
+Acts_Abuse_Lacey2 - walking 2
+
+Acts_Abuse_Lacey3- walking 3
+
+Acts_Breaching_Three - breaching 3
+
+Acts_Breaching_One - breaching gets shot
+
+Acts_Breaching_Four - breaching
+
+Acts_CrouchGetLowGesture - get low gesture
+
+Acts_EpicSplit - epic split
+
+Acts_Rifle_Operations_Front- looks front with weapon
+
+Acts_Rifle_Operations_Left - looks left with weapon
+
+Acts_Rifle_Operations_Right - looks right with weapon
+
+Mortar_01_F_Dead- laying dead
+
+InBaseMoves_patrolling1 - ambient 1
+
+InBaseMoves_patrolling2 - ambient 2
+
+InBaseMoves_repairVehiclePne- gets under vehicle
+
+kka3_Dance - sick dance
+
+kka3_dubstepdance- dubstep dance
+
+kka3_robotdance- robot dance
+
+LHD_krajPaluby - looks up at ships
+
+viper_crouchLoop- crouch loop
+
+ACE_UnconsciousOutProne - knocked out
+
+AovrPercMrunSrasWrflDf - jumping
+
+AinjPfalMstpSnonWnonDnon_carried_Up - zombie getting up
+
+ApanPercMstpSnonWnonDnon_ApanPpneMstpSnonWnonDnon- falling to the ground face first
+
+AwopPercMstpSgthWrflDnon_Start1 - pt1 begins to throw grenade
+
+AwopPercMstpSgthWrflDnon_End1- pt2 throws the grenade
+
+AadjPercMstpSrasWrflDdown- crouch shot
+
+AadjPercMstpSrasWrflDup- stand up shot
+
+AmovPercMrunSlowWrflDf_AmovPercMstpSrasWrflDnon_gthThrow - run grenade throw pt1
+
+AmovPercMrunSlowWrflDf_AmovPercMstpSrasWrflDnon_gthEnd- run grenade throw pt2
+
+Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop - ambient standing animation
+
+Acts_AidlPercMstpSlowWrflDnon_warmup05- scarface
+
+Acts_AidlPercMstpSnonWnonDnon_warmup_7_loop - warm ups
+
+Acts_Ambient_Gestures_Sneeze- sneeze
+
+Acts_Arriving_Camp- sprint
+
+Acts_Helping_Wake_Up_1- pt1 - bends over 1.6 seconds
+
+Acts_Helping_Wake_Up_2- pt2 - looks at something and touches it 22.123s
+
+babe_rvg_zed_stagger_run- zombie animation
+
+HubShootingRangeKneel_HubShootingRangeStand- gets up from kneel .909s
+
+viperSgt_crouchOut- crouch out loop
+
+Acts_Breaching_Enemy_A- dead ambient1, that I like
+
+Acts_Breaching_Enemy_C- dead ambient2, that I like
+
+/* Acts_Breakout_Rifleman_4- running up to position */
+
+Acts_Breakout_SquadLeader_2- uncrouch starts running foward
+
+Acts_Getting_Up_Player- getting up 
+
+Acts_In_Sinkhole- trying to back away from zombies
+
+Acts_Mentor_Freeing_Player- walks up and opens door
+
+Acts_Rifle_Operations_Barrel- shoots himself in the head
+
+Acts_SupportTeam_Front_ReachedEnd - hand up to stop
+
+Acts_SupportTeam_Back_StartMove- gets up off knees and turns around
+
+Acts_SupportTeam_Right_ToKneelLoop- kneels down and aims weapon
+
+Acts_SupportTeam_Back_Move- moves backwards
+
+Acts_starterPistol_fire- fires weapon to attract zombies
+
+WeaponMagazineReloadKneel- fast zombies
+
+AmovPercMstpSrasWrflDnon_gear_AmovPercMstpSrasWrflDnon- takes off desk
+
+AmovPercMstpSrasWrflDnon_AadjPpneMstpSrasWrflDleft- fall left
+
+AmovPercMstpSrasWrflDnon_AadjPpneMstpSrasWrflDright- fall right
+
+AmovPercMrunSrasWrflDfl_AmovPercMrunSrasWrflDf- swing right sprint .918s
+
+AparPercMstpSnonWnonDnon_AmovPpneMstpSnonWnonDnon- parachute falling
+
+AinvPercMstpSrasWlnrDnon_G01- out of nades
+
+Acts_listeningToRadio_Loop- listening to radio
+
+Acts_Peering_Down- looking down
+
+Acts_Pointing_Left- pointing left
+
+Acts_RU_Briefing_Move- sais move 2.6 seconds
+
+Acts_SittingWounded_out- dieng with pistol sitting
+
+Acts_Soldier_Moves_Inside_2- turns around and moves inside
+
+Acts_SupportTeam_Right_FromKneelLoop- gets up from kneel
+
+Acts_SupportTeam_Right_ToKneelLoop- kneels down
+
+Acts_SyndikatAmbush_C- pushes in punchcode
+
+Acts_trailer_relaxedWalk_L- relaxed walking
+
+Acts_trailer_sendUGVOff- tells next guy to move foward
+
+Acts_trailer_relaxedWalk_R- walk with hand down
+
+Acts_SupportTeam_Left_KneelLoop- kneel loop shot possible 12.199
+
+Acts_trailer_relaxedWalk_R - relaxed walking 2
+
+AmovPknlMstpSrasWrflDnon_AmovPknlMevaSrasWrflDr- leap left crouch
+
+Acts_Peering_Up - looks up.
+
+babe_rvg_zed_walk- zombie walk 2
+
+babe_rvg_zed_stagger_fast- zombie walk 3
+
+ACE_HandcuffedFFV- cool meditation scene
+
+HubShootingRangeKneel_move2- kneeling down
+
+viperSgt_runLoop- walking gun out.
+
+Acts_Dance_02- dance.
+
+Acts_Dance_01- another dance.
+
+Acts_Peering_Right- looking right.
+
+Acts_PercMwlkSlowWrflDf- calm walk.
+
+Acts_Rifle_Operations_Zeroing- adjusting gun.
+
+Acts_RU_Briefing_Turn - turning around.
+
+Acts_SupportTeam_Right_FromKneelLoop- crouch to standing looking right.
+
+Acts_welcomeOnHUB05_PlayerWalk_2- slow walk.
+
+kka3_nightclubdance- nightclubdance.
+
+kka3_dubstepdance - dubstep dance.
+
+kka3_hiphopdance- hiphop dance.
+
+kka3_russiandance- russian dance.
+
+kka3_crazydrunkdance - drunkdance.
+
+kka3_Crazy_Dance- rockstar dance.
+
+kka3_DuoIvan - stupid dance.
+
+Acts_Flashes_Recovery_2 - recovery
+
+HubSittingChairUB_idle2- sitting down
+
+HubSpectator_walkU- walking normally
+
+HubStandingUB_idle3- hands on waist.
+
+passenger_flatground_2_Aim_Pistol- sitting down with pistol
+
+passenger_flatground_2_Idle_Unarmed_Idling- sitting on the ground
+
+pos_calm_38_halo- halo jump
+
+RHS_KIA_C130_Pilot- dead body
+
+RHS_KIA_UH60M_Pilot- dead body
+
+RHS_KIA_UH60_Cargo02_V0- dead body
+
+RHS_Mi17v2_KIA_Gunner- dead body
+
+UnconsciousMedicFromUnarmed - kneels down
+
+rhs_snorkel_mount- fixing something
+
+UnconsciousReviveArms_A- in pain
+
+UnconsciousReviveBody_B- stomach wound
+
+UnconsciousReviveHead_A- head wound
+
+UnaErcPoslechVelitele4- hands behind back
+
+UnconsciousReviveMedic_B- reviving
+
+ZL2_death_1- death
+
+Acts_AidlPercMstpSnonWnonDnon_warmup_4_loop- crouched down
+
+Acts_AidlPercMstpSnonWnonDnon_warmup_8_loop- hands crossed
+
+Acts_AidlPsitMstpSsurWnonDnon03- tied up
+
+Acts_Ambient_Relax_4- gun on shoulder
+
+Acts_Ambient_Relax_1- gun on hip
+
+Acts_CrouchingCoveringRifle01- braces
+
+Acts_In_Sinkhole_4 - sinkhole
+
+Acts_CivilInjuredArms_1 - in pain
+
+Acts_SupportTeam_Front_Move - foward
+
+Acts_SupportTeam_Right_Move- right
+
+Acts_trailer_relaxedWalk_B - checks backwards while walking
+
+Acts_ViperMeeting_C- gets shot
