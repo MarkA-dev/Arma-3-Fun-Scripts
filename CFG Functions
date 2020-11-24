@@ -1,0 +1,34 @@
+CFGSound Layout.
+
+
+class CfgSounds
+{
+ sounds[] = {};
+class scuba1
+{
+ name = "scuba1";
+ sound[] = {sounds\mask.ogg, 1, 1, 1};
+ titles[] = {0, ""};
+};
+ class cough1
+ {
+  name = "cough1";
+  sound[] = {sounds\longcough.ogg, 1, 1, 1};
+ titles[] = {0, ""};
+ };
+class scream1
+{
+  name = "scream1";
+  sound[] = {sounds\screamingman1.ogg, 1, 1, 1};
+  titles[] = {0, ""};
+ };
+ class fire1
+{
+   name = "fire1";
+  sound[] = {sounds\fire.ogg, 3, 3, 3};
+ titles[] = {0, ""};
+};
+};
+
+
+fire1 say3D [ "fire", 1500, 1];
