@@ -1,5 +1,5 @@
 // use an add action and randomized switch statement to talk to an AI and have him say stupid stuff, and you also have the option to spank him.
-// he also does some simple solute animations.
+// he also does some simple salute animations.
 
 if (isServer) then {
 [pvtMendez, ["Spank This cuck",{name1 = name player;if(alive pvtMendez) then {pvtMendez sideChat format ["%1 harder daddy ", name1];};},		[],
