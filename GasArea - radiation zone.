@@ -1,0 +1,36 @@
+isRadiatonZoneAllowed = true;
+_markerName = createMarker ["Radiation", fogArea1];
+_markerName setMarkerType "hd_dot";
+{
+    if(isMultiplayer) then {waitUntil {sleep 1; getClientState == "BRIEFING READ"};};
+    iGame_fnc_Radiation = {
+         _player = player;
+         _RadiationZone = getMarkerPos "Radiation";
+         _Size = 100;
+         _Delay = 2;
+
+         while {alive _player && isRadiatonZoneAllowed} do
+         {
+           while {alive _player /*&& Goggles _player == "G_CBRN_M50"*/ && _player distance _RadiationZone < _Size} do
+              {
+                "dynamicBlur" ppEffectEnable false;
+                sleep 5;
+              };
+              waitUntil {Goggles _player != "G_CBRN_M50" && _player distance _RadiationZone < _Size};
+              _damage = damage _player;
+              _player setDamage (_damage + .02);
+            playsound "cough1";
+            "dynamicBlur" ppEffectEnable true;
+            "dynamicBlur" ppEffectAdjust [6];
+            enableCamShake true;
+      			addCamShake [10, 45, 10];
+             sleep 5;
+         };
+    };
+    RadiatonEventIndex = player addMPEventHandler ["MPRespawn",{ [] spawn iGame_fnc_Radiation; }];
+    [] spawn iGame_fnc_Radiation;
+} remoteExec ["BIS_fnc_call",0,"JIP_id_radiationZone"];
+
+// modified script that adds a radiation zone and does damage if the player isn't wearing proper attire while also limiting vision, and adding a camera shake as well as a nasty cough.
+original creator is j-wolf.
+effects were added to make it more realistic. camshake/dynamic blur/ sound / although sound is modded with cfgsounds.
