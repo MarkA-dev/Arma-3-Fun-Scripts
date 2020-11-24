@@ -1,0 +1,26 @@
+// to actually make this work you need to do several things first
+// look at the player and type this in the debug console
+cursorTarget
+// it will return a value like b3_124_32. Something along those lines.
+// next you will do
+prisoner = b3_124_32;
+// b3_124_32 being the value that was returned after the cursorTarget was executed (this one isn't real I made it up, don't use it! )
+
+// so the entire format looks like this -->
+prisoner = //return value would go here after executing cursorTarget and getting the player object;
+[prisoner,"Acts_ExecutionVictim_Loop"] remoteExec ["switchMove",0];[prisoner, ["Execute Prisoner",{[prisoner,"Acts_ExecutionVictim_Kill_End"] remoteExec ["playMove",0];sleep .5;
+[player ,"Acts_Executioner_Kill"] remoteExec ["switchMove",0];sleep 1.5;playsound "SN_Flare_Weapon_Fired";sleep 3;sleep 2;prisoner setDamage 1;},  [],
+  1,
+  false,
+ false,
+    "",
+    "true",
+    5,
+   false,
+    "",
+   ""
+  ]] remoteExec ["addAction",0,true];
+
+// no one can do the addAction to him but you, also, he can get out of the animation by scrolling and executing himself with the addAction.
+
+// basically forces the player into a kneeled stance, it then plays the animation of you shooting them in the head mafia style and they die.
