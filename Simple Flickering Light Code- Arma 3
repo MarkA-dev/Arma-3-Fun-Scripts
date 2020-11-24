@@ -1,0 +1,10 @@
+// simply adds a flickering light effect for your spooky needs. 
+while{alive player} do
+{
+myLamp1 switchLight "ON";
+sleep random .5;
+myLamp1 switchLight "OFF";
+sleep random 2;
+};
+
+// it really badly coded, Sorry, was a quickfix solution. The while loop should honestly be replaced with a event handler.
