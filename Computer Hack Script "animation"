@@ -1,4 +1,6 @@
-[/* laptop2*/ , ["Hack Comunication Tower",{sleep 1;
+[/* laptop2*/ , ["Hack Comunication Tower",
+{
+sleep 1;
 player attachTo [/*seat2*/, [0, 0, 0]];
 disableUserInput true;
 [player,"acts_millerDisarming_deskCrouch_loop"] remoteExec ["switchMove",0];
