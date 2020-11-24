@@ -8,8 +8,16 @@ prisoner = b3_124_32;
 
 // so the entire format looks like this -->
 prisoner = //return value would go here after executing cursorTarget and getting the player object;
-[prisoner,"Acts_ExecutionVictim_Loop"] remoteExec ["switchMove",0];[prisoner, ["Execute Prisoner",{[prisoner,"Acts_ExecutionVictim_Kill_End"] remoteExec ["playMove",0];sleep .5;
-[player ,"Acts_Executioner_Kill"] remoteExec ["switchMove",0];sleep 1.5;playsound "SN_Flare_Weapon_Fired";sleep 3;sleep 2;prisoner setDamage 1;},  [],
+[prisoner,"Acts_ExecutionVictim_Loop"] remoteExec ["switchMove",0];
+[prisoner, ["Execute Prisoner",{[prisoner,"Acts_ExecutionVictim_Kill_End"] remoteExec ["playMove",0];
+sleep .5;
+[player ,"Acts_Executioner_Kill"] remoteExec ["switchMove",0];
+sleep 1.5;playsound "SN_Flare_Weapon_Fired";
+sleep 3;
+sleep 2;
+prisoner setDamage 1;
+},  
+[],
   1,
   false,
  false,
@@ -19,7 +27,8 @@ prisoner = //return value would go here after executing cursorTarget and getting
    false,
     "",
    ""
-  ]] remoteExec ["addAction",0,true];
+  ]] 
+  remoteExec ["addAction",0,true];
 
 // no one can do the addAction to him but you, also, he can get out of the animation by scrolling and executing himself with the addAction.
 
