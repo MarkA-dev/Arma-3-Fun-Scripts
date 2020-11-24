@@ -1,0 +1,21 @@
+// picks up intel then hides the object and plays a global message.
+if (isServer) then {
+[drive1, ["Data Terminal",{[player, "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon"] remoteExec ["playMoveNow", 0];[drive1, true] remoteExec ["hideObjectGlobal", 2];
+[
+	[
+		["Stolen Terminal Secured", "<t align = 'center' shadow = '1' size = '1.5' font='PuristaBold'>%1</t><br/>"],
+		["objective:", "<t align = 'center' shadow = '1' size = '1.5'>%1</t><br/>"],
+		["Complete", "<t align = 'center' shadow = '1' size = '1.5'>%1</t>", 15]
+	]
+] spawn BIS_fnc_typeText;},		[],
+		1.5,
+		false,
+		false,
+  "",
+   "true",
+   5,
+  false,
+   "",
+   ""
+	 ]] remoteExec ["addAction",0];
+ };
