@@ -1,0 +1,66 @@
+// use an add action and randomized switch statement to talk to an AI and have him say stupid stuff, and you also have the option to spank him.
+// he also does some simple solute animations.
+
+if (isServer) then {
+[pvtMendez, ["Spank This cuck",{name1 = name player;if(alive pvtMendez) then {pvtMendez sideChat format ["%1 harder daddy ", name1];};},		[],
+		1.5,
+		false,
+		false,
+  "",
+   "true",
+   5,
+  false,
+   "",
+   ""
+	 ]] remoteExec ["addAction",0];
+
+	 // Talk to AI Script
+[pvtMendez, ["Talk To Governor",{name2 = name player;if(alive pvtMendez) then {pvt1 = selectRandom [1,2,3,4,5,6,7,8,9,10];
+switch pvt1 do
+{
+	case 1:
+	{pvtMendez globalChat format ["Evening %1 , Glad to work with you sir", name2];};
+
+	case 2:
+	{pvtMendez globalChat format ["Hello %1 Heard about your good work sir", name2];};
+
+	case 3:
+	{pvtMendez globalChat format [" %1 we need to get moving right away!", name2];};
+
+	case 4:
+	{pvtMendez globalChat format [" %1 lets get moving!", name2];};
+
+	case 5:
+	{pvtMendez globalChat format [" %1 we need to move now! before more come!", name2];};
+
+	case 6:
+	{pvtMendez globalChat format ["Hi %1 Thanks for saving me!", name2];};
+
+	case 7:
+	{pvtMendez globalChat format ["hello %1 I'm so glad you saved me!", name2];};
+
+	case 8:
+	{pvtMendez globalChat format ["%1 please get me out of here!", name2];};
+
+	case 9:
+	{pvtMendez globalChat format [" %1 I have been here for days, they took me hostage! those scum! ", name2];};
+
+	case 10:
+	{pvtMendez globalChat format [" %1 Solder, Thank you so much! ", name2];};
+
+	default {};
+};
+[pvtMendez, "SALUTE"] remoteExec ["playAction", pvtMendez];
+sleep 2;
+[pvtMendez, ""] remoteExec ["switchMove", pvtMendez];};},  [],
+  1,
+  false,
+ false,
+    "",
+    "true",
+    5,
+   false,
+    "",
+   ""
+  ]] remoteExec ["addAction",0];
+};
