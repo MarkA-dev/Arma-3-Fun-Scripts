@@ -1,0 +1,27 @@
+[/* laptop2*/ , ["Hack Comunication Tower",{sleep 1;player attachTo [/*seat2*/, [0, 0, 0]];disableUserInput true;[player,"acts_millerDisarming_deskCrouch_loop"] remoteExec ["switchMove",0];/*playSound "jbad_keyboard"*/;
+[
+ [
+  ["Uploading....","<t align = 'center' size = '.7'>%1</t><br/>"],
+  ["Virus Injected","<t align = 'center' size = '.7'>%1</t><br/>"],
+  ["Comms Channel Secured.....","<t align = 'center' size = '.7'>%1</t>"]
+ ]
+] spawn BIS_fnc_typeText;
+sleep 11;
+disableUserInput false;[player,"acts_millerDisarming_deskOut"] remoteExec ["switchMove",0];sleep 6;
+[player,""] remoteExec ["switchMove",0];detach player;[/*laptop2*/, true] remoteExec ["hideObjectGlobal", 2];[["TEXT HERE","PLAIN",1] ] remoteExec ["titleText",0];playSound "RHS_Gear";sleep 2;/*playSound "cwa_hangar_opendoors"*/;sleep 7;
+/*playSound "rhs_usa_land_rc_2"*/;},
+  [],
+  1.5,
+  false,
+  false,
+    "",
+    "true",
+    5,
+    false,
+    "",
+    ""
+]] remoteExec ["addAction",0];
+};
+
+// connects the the user to a laptop through an addAction. Attaches him to an object then plays some animations and "hacks a comms" or whatever, you can just change it's functionality.
+// Also remove the sounds and stuff, they require mods to function. Otherwise should functions just fine.
