@@ -51,4 +51,4 @@ setWind [10, 10, true];
 	};
 
 
-// modified script adds wind and snow to create a snow storm. change the drop interval to customize amount of snow and winder particles per second.
+// modified script adds wind and snow to create a snow storm. change the drop interval to customize amount of snow and wind particles per second.
