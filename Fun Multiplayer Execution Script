@@ -32,4 +32,4 @@ prisoner setDamage 1;
 
 // no one can do the addAction to him but you, also, he can get out of the animation by scrolling and executing himself with the addAction.
 
-// basically forces the player into a kneeled stance, it then plays the animation of you shooting them in the head mafia style and they die.
+// basically forces the player into a kneeled stance, it then plays the animation of you shooting them in the head mafia style and then they die.
