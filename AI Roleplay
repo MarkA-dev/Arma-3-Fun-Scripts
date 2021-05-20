@@ -2,7 +2,7 @@
 // he also does some simple salute animations.
 
 if (isServer) then {
-[pvtMendez, ["Spank This cuck",{name1 = name player;if(alive pvtMendez) then {pvtMendez sideChat format ["%1 ouch ", name1];};},		[],
+[pvtMendez, ["Spank This Man",{name1 = name player;if(alive pvtMendez) then {pvtMendez sideChat format ["%1 ouch ", name1];};},		[],
 		1.5,
 		false,
 		false,
